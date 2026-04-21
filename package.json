@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "nanoid": "^5.0.5",
     "nodemon": "^3.0.3",
     "shortid": "^2.2.16"
+  },
+  "engines": {
+    "node": "24.x"
   }
 }
